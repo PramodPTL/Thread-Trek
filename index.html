@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreadTrek | Cloth Renting Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+   <div class="header">
+    <div class="container">
+         <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/Screenshot%202023-05-10%20211640.png" width="125px">
+            </a>
+        </div>
+        <nav>
+            <ul Id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            
+            </ul>
+        </nav>
+             <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Rent the perfect dress<br>For any occasion</h1>
+            <p>It’s not how you dress, It’s how you dress up.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="images/Rent-Stack.jpg">
+        </div>
+        
+        </div>
+    </div>
+       </div> 
+<!----- Featured Categories -------->
+    <div class="categories">
+        <div class="small-container">
+             <div class="row">
+            <div class="col-3">
+                <img src="images/categories%201.png">
+            </div>
+            <div class="col-3">
+                <img src="images/categories%202.png">
+            </div>
+            <div class="col-3">
+                <img src="images/categories%203.png">
+                </div>
+        
+        </div>
+        </div>
+       
+    
+    </div>
+
+<!----- Featured Products -------->
+<div class="small-container">
+    <h2 class ="title">Featured Product</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details-3.html"><img src="images/1.png"></a>
+            <a href="product-details-3.html"><h4>Velvet Lahenga</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.2999.00</p>
+        
+        </div>
+                <div class="col-4">
+            <img src="images/5.jpg">
+            <h4>Jodhpuri Suit</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Rs.1999.00</p>
+        
+        </div>
+                <div class="col-4">
+            <img src="images/10.png">
+            <h4>Party Blazer</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.1599.00</p>
+        
+        </div>
+                <div class="col-4">
+            <img src="images/3.png">
+            <h4>Salwar Suit</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.1199.00</p>
+        
+        </div>
+    
+    </div>
+    <h2 class="title">Latest Products</h2>
+       <div class="row">
+        <div class="col-4">
+            <a href="product-details-1.html"><img src="images/2.png"></a>
+            <a href="product-details-1.html"><h4>Silk Lahenga</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.2999.00</p>
+        
+        </div>
+                <div class="col-4">
+            <img src="images/6.jpg">
+            <h4>Wedding Suit</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Rs.1999.00</p>
+        
+        </div>
+                <div class="col-4">
+            <a href="product-details-2.html"><img src="images/4.png"></a>
+            <a href="product-details-2.html"><h4>Designer Gown</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.1599.00</p>
+        
+        </div>
+                <div class="col-4">
+            <img src="images/9.png">
+            <h4>Classic Blazer</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.1199.00</p>
+        
+        </div>
+    
+    </div>
+       <div class="row">
+        <div class="col-4">
+            <img src="images/7.jpg">
+            <h4>Velvet Zardosi</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.2999.00</p>
+        
+        </div>
+                <div class="col-4">
+            <img src="images/11.png">
+            <h4>Formals Blazer</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Rs.1999.00</p>
+        
+        </div>
+                <div class="col-4">
+            <a href="product-details.html"><img src="images/13.png"></a>
+            <a href="product-details.html"><h4>Readymade Lahenga</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.1599.00</p>
+        
+        </div>
+                <div class="col-4">
+            <img src="images/12.png">
+            <h4>Check Blazer</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Rs.1199.00</p>
+        
+        </div>
+    
+    </div>
+    
+    </div>  
+<!------Offer ------->
+    <div class="Offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/rent%201%20-%20Copy.png" class="Offer-img">
+                
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available for Rent on ThreadTrek</p>
+                    <h1>Blue Lahenga Set with Dupatta</h1>
+                    <small>This set features a velvet chintz lehenga with gota borders organza dupatta with borders made of hand-embroidered with glass beads, sequins, pearls and zardosi.</small>
+                    <a href="" class="btn">Rent Now &#8594;</a>
+                
+                </div>
+            </div>
+        
+        </div>
+    
+    </div>
+    
+
+<!------Testimonial------->    
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>ThreadTrek is a trendy website that allows you to rent a dress Whether you have a special event coming up or just want to try out a new style. Service of ThreadTrek has been Amazing so Far. Recommended to Every Users.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                    
+                    
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>Monika Sharma</h3>
+                
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I absolutely love this cloth renting website! It's so easy to find the perfect outfit for any occasion, and the quality of the clothes is top-notch. Plus, I feel good about making a sustainable choice by renting instead of buying.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                    
+                    
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>Rahul Sharma</h3>
+                
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I can't say enough good things about this cloth renting website. The selection is amazing, and the customer service is always so helpful. It's so much fun to try out new styles without the commitment of buying them.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                    
+                    
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>shira</h3>
+                
+                </div>
+            
+            </div>
+        </div>
+        
+    
+    </div>
+    
+    
+<!------------- Brands --------------->    
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-1.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-2.jpg">
+                </div>
+                 <div class="col-5">
+                     <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-4.jpg">
+                </div>
+                 <div class="col-5">
+                    <img src="images/logo-5.jpg">
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+    
+<!------footer----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+   
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our purpose Is to Sustainably Make the Pleasure and Benefits of Costly clothes Accessible to Everyone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join through Subscription</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>LinkedIN</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - ThreadTrek</p>
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    
+<!------js for toggle menu---------->
+    <script>
+        var MenuItems= document.getElementById("MenuItems");
+        MenuItems.style.maxHeight= "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight== "0px")
+                {
+                    MenuItems.style.maxHeight= "200px";
+                }
+            else{
+                MenuItems.style.maxHeight= "0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>
